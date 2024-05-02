@@ -45,3 +45,83 @@ button:focus,
   --apple-background: #ffb2b2;
   --exotic-background: #c1bff2;
 }
+
+h1 {
+    font-family: "Lexend";
+    font-size: 449px !important;
+    line-height: normal !important;
+    color: var(--white-color) !important;
+    margin: 0 !important;
+  }
+  h2 {
+    font-family: "Lexend";
+    font-size: 40px;
+    line-height: normal;
+    margin: 0;
+    font-weight: 900;
+  }
+  /* Header */
+  header {
+    padding: 22px 28px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 99;
+    text-align: center;
+  }
+  .logo {
+    color: var(--pear-logo);
+  }
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Cane Image and Wrapper Image */
+  .cane-image {
+    max-width: 265px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mask-image: url(Images/cane.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-size: 100% auto;
+    mask-size: 100% auto;
+    overflow: hidden;
+  }
+  .cane-image img {
+    width: 100%;
+  }
+  .cane-labels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300% !important;
+    mix-blend-mode: multiply;
+    transition: all ease-in-out 0.3s;
+  }
+  /*Fruits Images */
+  .fruit-image {
+    opacity: 1;
+    position: absolute;
+  }
+  .image-one {
+    max-width: 282px;
+    bottom: 100px;
+  }
+  .image-two {
+    max-width: 247px;
+    top: 23%;
+    left: 25%;
+  }
+  .image-three {
+    max-width: 211px;
+    top: 23%;
+    right: 25%;
+  }
